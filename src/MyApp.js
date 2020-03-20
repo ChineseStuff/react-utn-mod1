@@ -1,24 +1,24 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./MyApp.css";
+import UserProfile from "./components/user/UserProfile";
 
 function MyApp() {
+  const user = {
+    fullName: "Ricardito Tamal",
+    city: "estulapio",
+    profileImage: "https://i.imgur.com/gQL6Dg4.jpg"
+  };
   return (
     <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          <code>src/MyApp.js</code> Edited
-        </p>
-        <a
-          className='App-link'
-          href='https://github.com/ChineseStuff/react-utn-mod1'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Take a look to my GHub repo
-        </a>
-      </header>
+      <UserProfile user={user} />
+      <a
+        className='App-link'
+        href='https://github.com/ChineseStuff/react-utn-mod1'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        Take a look to my GHub repo
+      </a>
     </div>
   );
 }
