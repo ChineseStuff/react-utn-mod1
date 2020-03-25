@@ -15,6 +15,8 @@ const SignUpUser = props => {
             icon='signature'
             placeholder='Your Name'
             labelStyle='label-style'
+            error={props.errors.name}
+            onChange={props.onChange}
           />
           <TextInput
             name='lastname'
@@ -22,6 +24,8 @@ const SignUpUser = props => {
             icon='signature'
             placeholder='Your Lastname'
             labelStyle='label-style'
+            error={props.errors.lastname}
+            onChange={props.onChange}
           />
           <TextInput
             name='phone'
@@ -29,6 +33,8 @@ const SignUpUser = props => {
             icon='phone-alt'
             placeholder='Your Phone'
             labelStyle='phone-style'
+            error={props.errors.phone}
+            onChange={props.onChange}
           />
           <TextInput
             name='email'
@@ -36,6 +42,8 @@ const SignUpUser = props => {
             icon='envelope'
             placeholder='Your Email'
             labelStyle='label-style'
+            error={props.errors.email}
+            onChange={props.onChange}
           />
           <TextInput
             name='password'
@@ -43,6 +51,8 @@ const SignUpUser = props => {
             icon='unlock-alt'
             placeholder='Your Password'
             labelStyle='label-style'
+            error={props.errors.password}
+            onChange={props.onChange}
           />
           <TextInput
             name='repassword'
@@ -50,6 +60,8 @@ const SignUpUser = props => {
             icon='unlock-alt'
             placeholder='Repeat your Password'
             labelStyle='label-style'
+            error={props.errors.repassword}
+            onChange={props.onChange}
           />
           <button type='submit' className='button submit'>
             Sign Up

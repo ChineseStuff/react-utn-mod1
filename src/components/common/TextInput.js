@@ -31,7 +31,12 @@ const TextInput = ({
           value={value}
           onChange={onChange}
         />
-        {error && <div>{error}</div>}
+        {error && (
+          <div className='error-label'>
+            {error}
+            <FontAwesomeIcon icon={["fas", "exclamation-circle"]} />
+          </div>
+        )}
       </div>
     </div>
   );
