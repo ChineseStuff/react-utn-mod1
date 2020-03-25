@@ -1,16 +1,13 @@
 import React from "react";
 import "./MyApp.css";
 import UserProfile from "./components/user/UserProfile";
+import SignUpUser from "./components/user/SignUpUser";
 
 function MyApp() {
-  const user = {
-    fullName: "Ricardito Tamal",
-    city: "estulapio",
-    profileImage: "https://i.imgur.com/gQL6Dg4.jpg"
-  };
   return (
     <div className='App'>
-      <UserProfile user={user} />
+      {/* <UserProfile /> */}
+      <SignUpUser />
       <a
         className='App-link'
         href='https://github.com/ChineseStuff/react-utn-mod1'

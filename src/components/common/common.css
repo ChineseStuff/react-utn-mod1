@@ -1,0 +1,32 @@
+.input-wrapper {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.phone-style {
+  position: absolute;
+  padding: 0px 6px;
+}
+
+.label-style {
+  position: absolute;
+  padding: 0px 7px;
+}
+
+.input-text {
+  box-shadow: none;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 33px;
+}
+
+.input-text:focus {
+  outline: none;
+}
+.input-text:focus::-webkit-input-placeholder {
+  color: #469bcc;
+}

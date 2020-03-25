@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import MyApp from "./MyApp";
 import * as serviceWorker from "./serviceWorker";
+import "./fontawesome";
 
 ReactDOM.render(<MyApp />, document.getElementById("root"));
 
