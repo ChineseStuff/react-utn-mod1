@@ -1,5 +1,6 @@
 ## Trabajo practico OBLIGATORIO Mod 1
 
+Release 1.0.0
 Desarrollar el registro de una pagina web, en el registro tener los siguientes campos:
 
 - Nombre
