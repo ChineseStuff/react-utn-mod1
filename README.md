@@ -1,11 +1,15 @@
-## Trabajo practico UTN ReactJS UNIDAD 4
+## Trabajo practico OBLIGATORIO Mod 1
 
-.
-.
-.
-.
-.
-.
+Desarrollar el registro de una pagina web, en el registro tener los siguientes campos:
+
+- Nombre
+- Apellido
+- Email
+- Telefono
+- Password
+- Confirmar password
+
+......
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
